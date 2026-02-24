@@ -1,5 +1,4 @@
 console.log("Hello World");
-document.write("Hello World");
 // hi everyone
 /*All your comments 
 are here...*/
@@ -50,3 +49,13 @@ else
 {
     console.log("False");
 }
+
+//loop
+var c ;
+document.write("Starting Loop"+"</br>");
+for(c=0;c<10;c++)
+{
+    document.write("Current Count:"+c);
+    document.write("<br/>");
+}
+document.write("Loop Stopped!");
